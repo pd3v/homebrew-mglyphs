@@ -9,10 +9,10 @@ class Intervals < Formula
 
   def install
     #system "./configure", "--disable-silent-rules", *std_configure_args
-    system "mkdir build"
+    system "mkdir", "build"
     system "cd", " build"
     system "cmake", "..", *std_cmake_args
-    system "make" #, ".." 
+    system "make" 
     bin.install "intervals"
   end
 end
