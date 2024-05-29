@@ -16,6 +16,6 @@ class Intervals < Formula
     #system "cd", "build"
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/" 
-    bin.install "intervals"
+    bin.install "build/intervals"
   end
 end
