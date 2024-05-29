@@ -3,8 +3,8 @@ class Intervals < Formula
   homepage "https://github.com/pd3v/intervals"
   # url "https://github.com/pd3v/intervals/archive/refs/tags/v0.0.1.tar.gz"
   url "https://github.com/pd3v/intervals.git", #, :using => :git, :branch => :main
-    tag: "v0.6.2",
-    revision: "a49d7140503004682a7e5398804591ac9b697789"
+    tag: "v0.0.1",
+    revision: "8673da324b362878e627399fe392356a7a179c7d"
   #sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
   #license "MIT"
 
