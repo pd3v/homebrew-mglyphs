@@ -11,7 +11,7 @@ class Mglyphs < Formula
   #license "MIT"
 
   depends_on "cmake" => :build
-  depends_on "diatonic" => :build
+  # depends_on "diatonic" => :build
 
   def install
     #system "./configure", "--disable-silent-rules", *std_configure_args
