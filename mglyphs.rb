@@ -9,6 +9,7 @@ class Mglyphs < Formula
   #license "MIT"
 
   depends_on "cmake" => :build
+  depends_on "diatonic" => :build
 
   def install
     #system "./configure", "--disable-silent-rules", *std_configure_args
@@ -16,7 +17,7 @@ class Mglyphs < Formula
     #system "cd", "build"
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
-    bin.install "build/externals/diatonic/build/libdiatonic.so"
+    # bin.install "build/externals/diatonic/build/libdiatonic.so"
     bin.install "build/mglyphs"
   end
 end
