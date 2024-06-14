@@ -19,7 +19,8 @@ class Mglyphs < Formula
     #system "cd", "build"
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
+    system "make", "install"
     # bin.install "build/externals/diatonic/build/libdiatonic.so"
-    bin.install "build/mglyphs"
+    # bin.install "build/mglyphs"
   end
 end
