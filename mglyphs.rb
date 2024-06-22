@@ -21,7 +21,7 @@ class Mglyphs < Formula
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
     # system "make", "install"
-    # bin.install "build/externals/diatonic/build/libdiatonic.so"
+    lib.install "build/externals/diatonic/build/libdiatonic.so"
     bin.install "build/mglyphs"
     ohai("Stay in the key ... or not!")
   end
