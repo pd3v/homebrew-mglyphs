@@ -22,5 +22,6 @@ class Mglyphs < Formula
     # system "make", "install"
     # bin.install "build/externals/diatonic/build/libdiatonic.so"
     bin.install "build/mglyphs"
+    ohai("Stay in the key ... or not!")
   end
 end
