@@ -16,6 +16,7 @@ class Mglyphs < Formula
   def install
     #system "./configure", "--disable-silent-rules", *std_configure_args
     system "mkdir", "build"
+    system "mkdir", "bin"
     #system "cd", "build"
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
