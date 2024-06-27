@@ -10,7 +10,7 @@ class Mglyphs < Formula
   #revision: "2feb98a86d66d0d762c58d0b3e106b7b0adfa679"
   revision: "cdc7a67c4c8c9686e2e238be5b20b26743172f40"
 
-  sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
+  #sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
   #license "MIT"
 
   depends_on "cmake" => :build
