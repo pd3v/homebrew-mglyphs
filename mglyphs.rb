@@ -8,8 +8,9 @@ class Mglyphs < Formula
   tag: "v0.0.1"
   #revision: "83808b98ffd224b55c91401984e4200333e39e10"
   #revision: "2feb98a86d66d0d762c58d0b3e106b7b0adfa679"
+  revision: "cdc7a67c4c8c9686e2e238be5b20b26743172f40"
 
-  #sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
+  sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
   #license "MIT"
 
   depends_on "cmake" => :build
@@ -25,6 +26,6 @@ class Mglyphs < Formula
     # system "make", "install"
     # lib.install "build/externals/diatonic/build/libdiatonic.so"
     bin.install "build/mglyphs"
-    ohai("Stay in the key ... or not!")
+    ohai("Keep playing in the key ... or don't!")
   end
 end
