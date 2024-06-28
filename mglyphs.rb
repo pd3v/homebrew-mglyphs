@@ -12,7 +12,7 @@ class Mglyphs < Formula
   license "MIT"
 
   depends_on "cmake" => :build
-  depends_on "diatonic" => :build
+  #depends_on "diatonic" => :build
 
   def install
     #system "./configure", "--disable-silent-rules", *std_configure_args
@@ -22,7 +22,7 @@ class Mglyphs < Formula
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
     system "make", "install"
-    # bin.install "build/mglyphs"
-    ohai("mglKeep playing in key ... or don't!")
+    #bin.install "build/mglyphs"
+    ohai("mglyphs installed. Keep playing in key ... or don't!")
   end
 end
