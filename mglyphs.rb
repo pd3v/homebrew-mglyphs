@@ -18,11 +18,10 @@ class Mglyphs < Formula
     #system "./configure", "--disable-silent-rules", *std_configure_args
     system "mkdir", "build"
     system "mkdir", "bin"
-    #system "cd", "build"
     system "cmake", "-S", ".", "-B", "build/", *std_cmake_args
     system "make", "-C", "build/"
     #system "make", "install"
-    lib.install "build/externals/diatonic/libdiatonic.so"
+    lib.install "build/externals/diatonic/libdiatonic"
     bin.install "build/mglyphs"
     ohai("mglyphs installed. Keep playing in key ... or don't!")
   end
