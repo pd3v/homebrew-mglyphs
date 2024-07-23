@@ -3,8 +3,7 @@ class Mglyphs < Formula
   homepage "https://github.com/pd3v/mglyphs"
   url "https://github.com/pd3v/mglyphs.git",
   tag: "v0.2",
-  revision: "969b71a30bdbca2aa217bffaf0e976e86b8f3984"
-
+  revision: "3b21a7a7757a1c78a400c30988e5ed498afa97cc"
   sha256 "4ed19c9ab1911b5d0ad99f524c08078444949e49814bb07a158febacd653f8d1"
   license "MIT"
 
